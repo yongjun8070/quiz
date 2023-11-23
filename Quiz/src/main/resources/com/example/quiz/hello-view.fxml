@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="901.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.quiz.HelloController">
+   <children>
+      <Pane id="mainPane" fx:id="mainPane" layoutX="-1.0" prefHeight="600.0" prefWidth="901.0" stylesheets="@hello.css">
+         <children>
+            <Button id="btn" fx:id="changeBtn10" layoutX="370.0" layoutY="458.0" mnemonicParsing="false" onAction="#changeScene" prefHeight="105.0" prefWidth="183.0" text="넌센스 퀴즈">
+               <font>
+                  <Font size="26.0" />
+               </font></Button>
+         </children></Pane>
+   </children>
+</AnchorPane>
